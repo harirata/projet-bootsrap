@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara's lounge</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- head -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Sara's lounge</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- hero -->
+<section id="home" class="hero">
+    <div class="p-5 text-center bg-image rounded-3" style="
+        background-image: url('imgres.jpg');
+        height: 400px;
+      ">
+        <a href="#menu" class="btn btn-primary btn-lg">View Menu</a>
+    </div>
+</section>
+<!-- le menue  -->
+<section id="menu" class="container my-5">
+    <h2 class="text-center mb-4"> Menu</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imgboisson.jpg"card-img-top alt="">
+                <div class="card-body">
+                    <h5 class="card-title">jus</h5>
+                    <p class="card-text">$40.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imgsteak.jpg" class="card-img-top" alt="Dish 2">
+                <div class="card-body">
+                    <h5 class="card-title">steak</h5>
+                    <p class="card-text">$160.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imgdessert.jpg" class="card-img-top" alt="Dish 3">
+                <div class="card-body">
+                    <h5 class="card-title">Dessert</h5>
+                    <p class="card-text">$35.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- la partie a propos -->
+<section id="about" class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="imgrestau.jpeg" width="540px" height="340px" alt="About Us">
+        </div>
+        <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>Welcome to Sara's lounge ,<br> where we serve the finest and freshest dishes prepared with <br>passion and precision. Our culinary team is dedicated to providing an exceptional dining experience with a menu that showcases a variety of flavors and ingredients. Join us and savor the taste of excellence.</p>
+        </div>
+    </div>
+</section>
+
+<!-- la partie contact -->
+
+<section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</section>
+<!-- le footer -->
+<footer class="text-center">
+    <p>&copy; 1997 Sara's lounge. All rights reserved.</p>
+    <div>
+        <a href="#" class="text-white mx-2">Facebook</a>
+        <a href="#" class="text-white mx-2">Twitter</a>
+        <a href="#" class="text-white mx-2">Instagram</a>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
